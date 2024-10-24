@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Technical Documentation</title>
+      <link rel="stylesheet" href="styles.css">
+   </head> 
+   <body>
+      <nav id="navbar">
+         <header>JS Documentation</header>
+         <ul id="ul-navbar">
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+            <li><a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li>
+            <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+            <li><a class="nav-link" href="#Variables">Variables</a></li>
+            <li><a class="nav-link" href="#Declaring_variables">Declaring variables</a></li>
+            <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
+            <li><a class="nav-link" href="#Global_variables">Global variables</a></li>
+            <li><a class="nav-link" href="#Constants">Constants</a></li>
+            <li><a class="nav-link" href="#Data_types">Data types</a></li>
+            <li><a class="nav-link" href="#if...else_statement">if...else statement</a></li>
+            <li><a class="nav-link" href="#while_statement">while statement</a></li>
+            <li><a class="nav-link" href="#Function_declarations">Function declarations</a></li>
+            <li><a class="nav-link" href="#Reference">Reference</a></li>
+         </ul>
+      </nav>
+      <main id="main-doc">
+         <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language...</p>
+         </section>
+         <section class="main-section" id="What_you_should_already_know">
+            <header>What you should already know</header>
+            <p>This guide assumes you have the following basic background:</p>
+            <ul>
+               <li>Basic HTML knowledge</li>
+               <li>Basic CSS knowledge</li>
+               <li>Understanding of basic JavaScript syntax</li>
+            </ul>
+         </section>
+         <section class="main-section" id="JavaScript_and_Java">
+            <header>JavaScript and Java</header>
+            <p>JavaScript and Java are similar in some ways but fundamentally different in some others. Here are the main differences:</p>
+            <ul>
+               <li>Java is a compiled language, whereas JavaScript is an interpreted language.</li>
+               <li>Java is statically typed, while JavaScript is dynamically typed.</li>
+            </ul>
+         </section>
+         <section class="main-section" id="Hello_world">
+            <header>Hello world</header>
+            <p>To get started with writing JavaScript, open the Scratchpad and write your first <code>"Hello world"</code> JavaScript code:</p>
+            <pre><code>console.log("Hello, world!");</code></pre>
+         </section>
+         <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p>You use variables as symbolic names for values in your application. For example:</p>
+            <pre><code>let x = 5;</code></pre>
+         </section>
+         <section class="main-section" id="Declaring_variables">
+            <header>Declaring variables</header>
+            <p>You can declare a variable in three ways:</p>
+            <pre><code>var x;</code></pre>
+            <pre><code>let y;</code></pre>
+            <pre><code>const z = 10;</code></pre>
+         </section>
+         <section class="main-section" id="Variable_scope">
+            <header>Variable scope</header>
+            <p>When you declare a variable outside of any function, it is called a global variable.</p>
+            <pre><code>let globalVar = "I am global";</code></pre>
+         </section>
+         <section class="main-section" id="Global_variables">
+            <header>Global variables</header>
+            <p>Global variables are in fact properties of the global object.</p>
+            <pre><code>window.myGlobal = "Hello";</code></pre>
+         </section>
+         <section class="main-section" id="Constants">
+            <header>Constants</header>
+            <p>You can create a read-only, named constant with the const keyword:</p>
+            <pre><code>const PI = 3.14159;</code></pre>
+         </section>
+         <section class="main-section" id="Data_types">
+            <header>Data types</header>
+            <p>The latest ECMAScript standard defines seven data types:</p>
+            <ul>
+               <li>Six data types that are primitives: Boolean, Null, Undefined, Number, String, and Symbol.</li>
+               <li>Objects and Functions (which are a special type of object).</li>
+            </ul>
+         </section>
+         <section class="main-section" id="if...else_statement">
+            <header>if...else statement</header>
+            <p>Use the if statement to execute a statement if a logical condition is true. For example:</p>
+            <pre><code>if (x > 10) {
+  console.log("X is greater than 10");
+} else {
+  console.log("X is less than or equal to 10");
+}</code></pre>
+         </section>
+         <section class="main-section" id="while_statement">
+            <header>while statement</header>
+            <p>A while statement executes its statements as long as a specified condition evaluates to true. For example:</p>
+            <pre><code>let count = 0;
+while (count < 5) {
+  console.log(count);
+  count++;
+}</code></pre>
+         </section>
+         <section class="main-section" id="Function_declarations">
+            <header>Function declarations</header>
+            <p>A function definition consists of the function keyword, followed by:</p>
+            <ul>
+               <li>The name of the function.</li>
+               <li>A list of parameters to the function, enclosed in parentheses and separated by commas.</li>
+               <li>The JavaScript statements that define the function, enclosed in curly brackets.</li>
+            </ul>
+            <pre><code>function greet(name) {
+  return "Hello, " + name;
+}</code></pre>
+         </section>
+         <section class="main-section" id="Reference">
+            <header>Reference</header>
+            <ul>
+               <li>All the documentation on this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a></li>
+            </ul>
+         </section>
+      </main>
+   </body>
+</html>

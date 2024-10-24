@@ -1,0 +1,41 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.game {
+  text-align: center;
+  padding: 20px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  background-color: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #ddd;
+}
+
+.status {
+  margin-bottom: 20px;
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
